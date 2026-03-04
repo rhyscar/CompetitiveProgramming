@@ -1,2 +1,2 @@
 # CompetitiveProgramming
-Storing all of my competitive programming solutions
+Storing all of my competitive programming solutions and more!
