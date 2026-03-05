@@ -1,0 +1,5 @@
+*.exe
+*.o
+.vscode/
+# Ignore the CPH test case files
+.cph/
