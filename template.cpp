@@ -4,11 +4,8 @@
 #include <string>
 
 void solve() {
-    // Read input for a single test case here
     int n;
     // std::cin >> n;
-    
-    // Your logic goes here
     
     
     // std::cout << answer << "\n"; // Use "\n" instead of std::endl for speed
