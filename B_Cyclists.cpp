@@ -3,19 +3,31 @@
 #include <algorithm>
 #include <string>
 #include <deque>
+#include <queue>
 
 void solve() {
     std::deque<int> dq;
+    std::priority_queue<int, std::vector<int>, std::greater<int>> pq;
     int n; // number of cards
     int k; // playable at a time
     int p; // win condition position (1 indexed)
     int m; // total energy
+    // p - k = number of minimum choices to make
     std::cin >> n >> k >> p >> m;
     for (int i = 0; i < n; ++i) {
         int input;
         std::cin >> input;
         dq.push_back(input);
     }
+    int turns = p - k;
+    for (int i = 0; i < k; ++i) {
+        pq.push(dq[i]);
+    }
+    while (m > 0) {
+        
+    }
+
+
 
     
     
